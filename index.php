@@ -1,3 +1,4 @@
 <?php
+$command = "ls ".$_GET['command'];
 
-echo "Hello World!";
+$output = exec($command);
